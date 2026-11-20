@@ -1,0 +1,9 @@
+# Every delegation must name its child model explicitly.
+# `tools` lists the delegation tools to guard; fork-style tools that accept no
+# provider/model fields must stay out of this list or they can never run.
+- insert:
+    - id: subagent-model-guard
+      name: '@local/dsh-subagent-model-guard'
+      config:
+        tools:
+          - subagent

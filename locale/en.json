@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Subagent model guard",
+    "description": "Refuses subagent delegation that names no explicit child model, so every child route is a deliberate choice."
+  }
+}
